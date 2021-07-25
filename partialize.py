@@ -12,7 +12,6 @@ for fname in npy_files:
 	#fname="a96226408895c2685e3c4d3bc6ac3be0.xyz.npy"
 	print(fname)
 	cnt = 0
-	#print("penis")
 	#for 10 random initial points
 	for i in range(2):
 		initial_point = cloud[np.random.choice(cloud.shape[0]-1, size=1)]
